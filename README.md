@@ -1,6 +1,6 @@
 # DM-DQN for FCHEV Energy Management
 
-本仓库整理自 `F:\徐鹏飞整理材料\DM-DQN代码\DM-DQN`，包含用于燃料电池混合动力汽车能量管理的 DM-DQN 研究代码及必要的 Excel 状态/动作数据。
+本仓库包含用于燃料电池混合动力汽车能量管理的 DM-DQN 研究代码及必要的 Excel 状态/动作数据。
 
 ## 主要内容
 
