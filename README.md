@@ -20,25 +20,6 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-## 当前已知限制
-
-本次整理未找到下列外部数据，因此仓库是“研究代码归档”，尚不能开箱即跑：
-
-- `D:/Drive_Cycle/Standard_UDDS.mat`
-- `P_fc.mat`、`P_fce.mat`、`h2_consumption.mat`、`fce_eff.mat`
-- `conversion.mat`、`P_fc_conv.mat`
-- `mot_eff.mat`、`W_mot.mat`、`T_mot.mat`
-- `mot_trq_min.mat`、`mot_trq_max.mat`、`e_dcdc.mat`
-
-`UDDS_Environment.py` 和 `FCHEV_SOH.py` 中还存在本机绝对路径。运行前应把这些路径改为项目内相对路径或命令行参数。
-
-## 未纳入版本库的内容
-
-- `venv/`、`__pycache__/`：本地环境和缓存
-- `UDDS_results/`：训练中间结果、模型输出和日志
-- `EXCEL_ALL/`、`Train_Excel/`、`DM-DQN_model/`：实验输出
-- `ref/`：依赖缺失的参考代码，不属于当前可复现主流程
-
 ## 许可
 
 当前未附加开源许可证。在版权所有者明确授权之前，请勿假定本仓库内容可被复制、修改或再分发。
